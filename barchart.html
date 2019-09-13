@@ -3,10 +3,41 @@
 
 <head>
   <meta charset="utf-8">
-<link rel="stylesheet" href="barchart.css"
+  <link rel="stylesheet" href="barchart.css">
+  <title>Bar chart</title>
 </head>
 
 <body>
+  <h1>Create a bar chart</h1>
+  <h2>Enter your data here</h2>
+  <h3>Labels</h3>
+  <form>
+    Bar 1:
+    <input type="text" name="barone">
+    <br>
+    Bar 2:
+    <input type="text" name="bartwo">
+    <br>
+    Bar 3:
+    <input type="text" name="barthree">
+    <br>
+    Bar 4:
+    <input type="text" name="barfour">
+    <br>
+    Bar 5:
+    <input type="text" name="barfive">
+    <br>
+    <input type="submit">
+  </form>
+  <h2>Your generated chart</h2>
+<div id = "container">
+  <div id = "one" class = "bar">Bar 1</div>
+  <div id = "two" class = "bar">Bar 2</div>
+  <div id = "three" class = "bar">Bar 3</div>
+  <div id = "four" class = "bar">Bar 4</div>
+  <div id = "five" class = "bar">Bar 5</div>
+</div>
+
   <script src="jquery.js"></script>
 </body>
 

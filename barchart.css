@@ -1,0 +1,40 @@
+div#container {
+  width: 100%;
+  background: purple;
+}
+div#one {
+  width: 20%;
+  height: 200px;
+  background: red;
+  float: left;
+}
+div#two {
+  width: 20%;
+  height: 200px;
+  background: orange;
+  float: left;
+}
+div#three {
+  width: 20%;
+  height: 200px;
+  background: yellow;
+  float: left;
+}
+div#four {
+  width: 20%;
+  height: 200px;
+  background: green;
+  float: left;
+}
+div#five {
+  width: 20%;
+  height: 200px;
+  background: blue;
+  float: left;
+}
+
+.bar {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
